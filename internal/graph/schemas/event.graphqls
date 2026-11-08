@@ -1,0 +1,8 @@
+extend type Query {
+  event(id: ID!): Event
+  events: [Event!]!
+}
+
+extend type Mutation {
+  createEvent(input: CreateEventInput!): Event!
+}

@@ -1,0 +1,3 @@
+extend type Mutation {
+  createEventRequest(input: CreateEventRequestInput!): EventRequest!
+}

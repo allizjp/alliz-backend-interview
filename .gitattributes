@@ -1,0 +1,5 @@
+internal/ent/** linguist-generated
+internal/ent/entc.go -linguist-generated
+internal/ent/schema/** -linguist-generated
+internal/graph/generated/** linguist-generated
+internal/graph/schemas/ent.graphqls linguist-generated

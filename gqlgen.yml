@@ -1,0 +1,24 @@
+schema:
+  - internal/graph/schemas/*.graphqls
+
+exec:
+  filename: internal/graph/generated/generated.go
+  package: generated
+
+model:
+  filename: internal/graph/generated/models_gen.go
+  package: generated
+
+resolver:
+  layout: follow-schema
+  dir: internal/graph
+  package: graph
+  filename: internal/graph/handler.go
+
+autobind:
+  - github.com/allizjp/alliz-backend-interview/internal/ent
+
+models:
+  ID:
+    model:
+      - github.com/99designs/gqlgen/graphql.IntID

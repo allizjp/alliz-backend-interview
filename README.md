@@ -10,7 +10,7 @@ Events and event requests over GraphQL, on a simplified alliz stack: Go, gqlgen,
 | [gqlgen](https://gqlgen.com)                                                               | GraphQL server, generated from `internal/graph/schemas/`                  |
 | [ent](https://entgo.io)                                                                    | ORM, generated from `internal/ent/schema/`; hooks hold the business rules |
 | [entgql](https://entgo.io/docs/graphql)                                                    | Generates the GraphQL types and create inputs from the ent schemas        |
-| [SQLite](https://sqlite.org) ([modernc.org/sqlite](https://pkg.go.dev/modernc.org/sqlite)) | Database; pure-Go driver, so no Docker or C compiler                      |
+| [SQLite](https://sqlite.org) ([modernc.org/sqlite](https://pkg.go.dev/modernc.org/sqlite)) | Database; pure-Go driver                                                  |
 | [testify](https://github.com/stretchr/testify)                                             | Test assertions                                                           |
 
 ## Run
